@@ -27,6 +27,7 @@ function renderCafe(doc) {
         db.collection("cafes").doc(id).delete()
 
     })
+
 }
 
 // getting data
